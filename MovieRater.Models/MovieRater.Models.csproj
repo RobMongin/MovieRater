@@ -59,6 +59,10 @@
     <Compile Include="ContentModels\ContentEdit.cs" />
     <Compile Include="ContentModels\ListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TvShowsModel\TvShowsCreate.cs" />
+    <Compile Include="TvShowsModel\TvShowsDetail.cs" />
+    <Compile Include="TvShowsModel\TvShowsEdit.cs" />
+    <Compile Include="TvShowsModel\TvShowsList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

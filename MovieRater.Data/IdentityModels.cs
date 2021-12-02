@@ -35,6 +35,8 @@ namespace MovieRater.Data
     //public DbSet<Movie> Movies { get; set; }
     //public DbSet<TvShow> TvShows { get; set; }
     }
+    
+
 
     public class IdentityUserLoginConfiguration : EntityTypeConfiguration<IdentityUserLogin>
     {

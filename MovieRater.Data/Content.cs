@@ -51,7 +51,6 @@ namespace MovieRater.Data
         [Required]
         public GenreType GenreType { get; set; }
         
-
         public bool IsFamilyFriendly
         {
             get
