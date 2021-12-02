@@ -57,11 +57,21 @@
     <Compile Include="ContentModels\ContentCreate.cs" />
     <Compile Include="ContentModels\ContentDetail.cs" />
     <Compile Include="ContentModels\ContentEdit.cs" />
+    <Compile Include="MovieModels\MovieCreate.cs" />
+    <Compile Include="MovieModels\MovieDetail.cs" />
+    <Compile Include="MovieModels\MovieEdit.cs" />
+    <Compile Include="MovieModels\MovieListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MovieRater.Data\MovieRater.Data.csproj">
+      <Project>{5E386869-ECEC-473D-B4D7-8E5773472682}</Project>
+      <Name>MovieRater.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
