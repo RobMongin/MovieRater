@@ -31,10 +31,14 @@ namespace MovieRater.Data
         {
             return new ApplicationDbContext();
         }
+<<<<<<< HEAD
 
     public DbSet<Content> Contents { get; set; }
+=======
+    public DbSet<TvShow> TvShows { get; set; }
+    public DbSet<Content> Content { get; set; }
+>>>>>>> 548d117eb694bd494630a650b7b1207ec96bf7b2
     public DbSet<Movie> Movies { get; set; }
-    //public DbSet<TvShow> TvShows { get; set; }
     }
 
 

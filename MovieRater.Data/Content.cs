@@ -52,10 +52,16 @@ namespace MovieRater.Data
         [Required]
         public GenreType GenreType { get; set; }
 
+
         [ForeignKey(nameof(Movie))]
         public int MovieId { get; set; }
         public virtual Movie Movie { get; set; }
-        
+
+
+        [ForeignKey(nameof(TvShow))]
+        public int TvShowId { get; set; }
+        public virtual Movie TvShow { get; set; }
+
         public bool IsFamilyFriendly
         {
             get

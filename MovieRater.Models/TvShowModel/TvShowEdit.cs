@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace MovieRater.Models.TvShowsModel
 {
-    public class TvShowsDetail
+    public class TvShowEdit
     {
+        public int TvShowId { get; set; }
+        public string TvShowName { get; set; }
     }
 }
