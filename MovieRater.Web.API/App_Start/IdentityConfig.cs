@@ -3,6 +3,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
+using MovieRater.Data;
 using MovieRater.Web.API.Models;
 
 namespace MovieRater.Web.API
