@@ -57,6 +57,7 @@
     <Compile Include="ContentModels\ContentCreate.cs" />
     <Compile Include="ContentModels\ContentDetail.cs" />
     <Compile Include="ContentModels\ContentEdit.cs" />
+    <Compile Include="ContentModels\ListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
