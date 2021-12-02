@@ -32,11 +32,10 @@ namespace MovieRater.Data
             return new ApplicationDbContext();
         }
     public DbSet<TvShow> TvShows { get; set; }
-
-
+    public DbSet<Content> Content { get; set; }
+    public DbSet<Movie> Movies { get; set; }
     }
-    //public DbSet<Content> Content { get; set; }
-    //public DbSet<Movie> Movies { get; set; }
+
 
     public class IdentityUserLoginConfiguration : EntityTypeConfiguration<IdentityUserLogin>
     {
