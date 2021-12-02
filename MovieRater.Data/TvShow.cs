@@ -1,14 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieRater.Models.TvShowsModel
+namespace MovieRater.Data
 {
-    public class TvShowsDetail
+    public class TvShow
     {
+        [Key]
         public int TvShowId { get; set; }
+
+        [Required, Display(Name = "Tv Show Name")]
         public string TvShowName { get; set; }
     }
 }
