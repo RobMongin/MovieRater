@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MovieRater.Models
+namespace MovieRater.Models.ContentModels
 {
-    public class Class1
+    class ContentDetail
     {
     }
 }

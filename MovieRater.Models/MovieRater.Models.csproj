@@ -54,7 +54,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ContentModels\ContentCreate.cs" />
+    <Compile Include="ContentModels\ContentDetail.cs" />
+    <Compile Include="ContentModels\ContentEdit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
