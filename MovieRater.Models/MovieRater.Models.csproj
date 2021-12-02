@@ -54,8 +54,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ContentModels\ContentCreate.cs" />
+    <Compile Include="ContentModels\ContentDetail.cs" />
+    <Compile Include="ContentModels\ContentEdit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TvShowsModel\TvShowsCreate.cs" />
+    <Compile Include="TvShowsModel\TvShowsDetail.cs" />
+    <Compile Include="TvShowsModel\TvShowsEdit.cs" />
+    <Compile Include="TvShowsModel\TvShowsList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

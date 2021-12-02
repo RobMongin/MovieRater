@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MovieRater.Data
 {
-    public class Class1
+    public class Content
     {
     }
 }
