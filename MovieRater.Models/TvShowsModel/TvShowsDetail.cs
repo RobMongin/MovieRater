@@ -8,5 +8,7 @@ namespace MovieRater.Models.TvShowsModel
 {
     public class TvShowsDetail
     {
+        public int TvShowId { get; set; }
+        public string TvShowName { get; set; }
     }
 }
